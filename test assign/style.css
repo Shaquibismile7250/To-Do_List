@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("bg-img.png");
+    background-size: cover; /* Add this to ensure the background image covers the entire body */
+    font-family: Arial, sans-serif; /* Add a default font family */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px; /* Add some padding for better spacing */
+}
+
+.input-d {
+    margin-bottom: 10px;
+}
+
+.todo-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.submit-button {
+    text-align: center;
+}
+
+.submit-btn {
+    padding: 8px 16px;
+    background-color: rgb(8, 8, 176);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add a smooth transition on hover */
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.error_message {
+    color: red;
+}
